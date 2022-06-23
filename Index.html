@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-size: 1.5rem;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .page-padding{
+            padding: 5vw;
+        }
+        .display-area{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <div class="page-padding">
+                <div class="container">
+                    <div class="display-area">
+                        <h1>My name is <span data-name="name"></span></h1>
+                        <p>this is my height <span data-height="height"></span> and I am from <span data-country="country"></span></p>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="./main.js"></script>
+</body>
+</html>
